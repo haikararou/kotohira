@@ -742,3 +742,10 @@ add_filter( 'wp_lazy_loading_enabled', '__return_false' );
 
 add_filter('wp_calculate_image_srcset_meta', '__return_null');
 */
+
+
+
+function linkbtn_func( $atts, $content = null ) {
+	return '<a href="'.$url.'" class="btn"><span class="btn-blank">'.$content.'</span></a>';
+}
+add_shortcode('linkbtn', 'linkbtn_func');
