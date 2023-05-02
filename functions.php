@@ -745,7 +745,26 @@ add_filter('wp_calculate_image_srcset_meta', '__return_null');
 
 
 
-function linkbtn_func( $atts, $content = null ) {
-	return '<a href="'.$url.'" class="btn"><span class="btn-blank">'.$content.'</span></a>';
+// function linkbtn_func( $atts, $content = null ) {
+// 	return '<a href="'.$url.'" class="btn"><span class="btn-blank">'.$content.'</span></a>';
+// }
+// add_shortcode('linkbtn', 'linkbtn_func');
+
+
+
+
+// function linkbtn_func($atts, $content=null){
+// $a = shortcode_atts( array(
+// 'url' => 'URL',
+// 'txt' => 'テキスト'
+// ), $atts, 'linkbtn_func');
+// return '<a href="'.$a['url'].'" class="btn"><span class="btn-blank">'.$a['txt'].'</span></a>';
+// }
+// add_shortcode('linkbtn','linkbtn_func');
+
+
+
+function linkbtn_func($atts){
+return '<a href="'.$atts['url'].'" class="btn"><span class="btn-blank">'.$atts['txt'].'</span></a>';
 }
 add_shortcode('linkbtn', 'linkbtn_func');
