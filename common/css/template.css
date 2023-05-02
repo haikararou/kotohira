@@ -19,7 +19,7 @@ btn
 .btn .btn-inner:before { display:inline-block; content:""; width:4px; height:0.8em; background:url(../img/arrow_bl.svg) no-repeat 0 60%; margin-right:8px; }
 .btn:hover{ text-decoration:none; background:#0061B2; color:#fff;}
 .btn:hover .btn-inner:before { background:url(../img/arrow_wh.svg) no-repeat 0 60%; }
-
+.btn.btnL { width: 100%; height: 64px; padding: 25px 0 0;}
 .btn { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;	-webkit-transition: all .5s; transition: all .5s;}
 
 .btn .btn-blank { display:block; line-height:100%; }
