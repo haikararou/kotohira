@@ -88,11 +88,9 @@ Template Name: バイオトイレ20230502
                     //add_filter('the_content', 'wpautop');
                 ?>
                 <?php endwhile; endif; ?>
-            </section>
-            <section id="form">
-                <h2>この製品のお問い合わせ</h2>
-                <div class="form">
-                    <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                <div class="conts">
+                    <h3 class="title3">この製品のお問い合わせ</h3>
+                    <br>
                     <a class="btn btnL" href="#"><span class="btn-inner">お問い合わせフォーム</span></a>
                 </div>
             </section>
