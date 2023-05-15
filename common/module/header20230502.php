@@ -17,7 +17,7 @@
                 </ul>
             </nav>
             <div id="header-search" class="clearfix">
-                <a href="#" class="btn"><span class="btn-inner">お客様情報登録</span></a>
+                <a href="<?php echo home_url('/'); ?>regist/" class="btn"><span class="btn-inner">お客様情報登録</span></a>
                 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <label>
                         <input type="search" class="search-field" placeholder="サイト内検索" value="<?php echo get_search_query(); ?>" name="s" />
@@ -43,7 +43,7 @@
                 </ul>
             </nav>
             <div id="header-search2" class="panel_btn">
-                <a href="#" class="btn"><span class="btn-inner">お客様情報登録</span></a>
+                <a href="<?php echo home_url('/'); ?>regist/" class="btn"><span class="btn-inner">お客様情報登録</span></a>
                 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <label>
                         <input type="search" class="search-field" placeholder="サイト内検索" value="<?php echo get_search_query(); ?>" name="s" />

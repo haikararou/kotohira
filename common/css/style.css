@@ -157,12 +157,14 @@
 #catalog article,
 #privacy article,
 #contact article,
+#regist article,
 .oem_form article{ width:800px; margin:0 auto;}
 @media screen and (max-width:900px){
 	#help article,
 	#catalog article,
 	#privacy article,
 	#contact article,
+	#regist article,
     .oem_form article { width:90%; margin:0 auto;}
 }
 
@@ -325,4 +327,24 @@ ol.number.shaze li { font-size:1.875rem; font-family: YuMincho, 'Yu Mincho', ser
 .flex-clean div:nth-child(2) { width: calc(100% - 300px);}
 @media screen and (max-width:600px){
 	.flex-clean div:nth-child(2) { width: 100%;}
+}
+
+
+#regist main section p {
+	margin: 0;
+	line-height: 2;
+}
+#regist main section p + p {
+	margin: 1.5rem 0 0 0;
+}
+#regist main section ul {
+	margin: 1.2rem 0 1.5rem;
+	font-size: 15px;
+	line-height: 1.6;
+}
+#regist main section ul li {
+	margin: 0;
+}
+#regist main section ul li + li {
+	margin: .5rem 0 0 0;
 }

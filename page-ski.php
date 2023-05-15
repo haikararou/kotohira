@@ -34,10 +34,11 @@ Template Name: スキー・スノーボードスタンド
                     //add_filter('the_content', 'wpautop');
                 ?>
                 <?php endwhile; endif; ?>
-            </section>
-            <section id="form">
-                <h2>この製品のお問い合わせ</h2>
-                <?php echo do_shortcode('[contact-form-7 id="4758" title="スキー・スノーボードスタンドお問い合わせ"]'); ?>           
+                <div class="conts">
+                    <h3 class="title3">この製品のお問い合わせ</h3>
+                    <br>
+                    <a class="btn btnL" href="https://www.sotuu.net/mkt/temp/kotohira_1.html" target="_blank"><span class="btn-inner">お問い合わせフォーム</span></a>
+                </div>
             </section>
         </article>
     </main>

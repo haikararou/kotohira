@@ -91,7 +91,7 @@ Template Name: バイオトイレ20230502
                 <div class="conts">
                     <h3 class="title3">この製品のお問い合わせ</h3>
                     <br>
-                    <a class="btn btnL" href="#"><span class="btn-inner">お問い合わせフォーム</span></a>
+                    <a class="btn btnL" href="https://www.sotuu.net/mkt/temp/kotohira_1.html" target="_blank"><span class="btn-inner">お問い合わせフォーム</span></a>
                 </div>
             </section>
         </article>
