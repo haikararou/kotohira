@@ -16,6 +16,7 @@
                 </ul>
             </nav>
             <div id="header-search" class="clearfix">
+                <a href="<?php echo home_url('/'); ?>regist/" class="btn"><span class="btn-inner">お客様情報登録</span></a>
                 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <label>
                         <input type="search" class="search-field" placeholder="サイト内検索" value="<?php echo get_search_query(); ?>" name="s" />
@@ -23,6 +24,14 @@
                     <button type="submit" class="search-submit"><span>サイト内検索</span></button>
                 </form>
             </div>
+            <!-- <div id="header-search" class="clearfix">
+                <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <label>
+                        <input type="search" class="search-field" placeholder="サイト内検索" value="<?php echo get_search_query(); ?>" name="s" />
+                    </label>
+                    <button type="submit" class="search-submit"><span>サイト内検索</span></button>
+                </form>
+            </div> -->
             <div id="header-contact3">
                 <div class="column-flex column-flex-sp">
                     <a href="<?php echo home_url('/'); ?>contact/" class="contact-link"><span>お問い合わせ</span></a>
@@ -41,7 +50,8 @@
                     <li><a href="<?php echo home_url('/'); ?>recruit/">RECRUIT<span>採用情報</span></a></li>
                 </ul>
             </nav>
-            <div id="header-search2" class="clearfix">
+            <div id="header-search2" class="panel_btn">
+                <a href="<?php echo home_url('/'); ?>regist/" class="btn"><span class="btn-inner">お客様情報登録</span></a>
                 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <label>
                         <input type="search" class="search-field" placeholder="サイト内検索" value="<?php echo get_search_query(); ?>" name="s" />
@@ -49,6 +59,14 @@
                     <button type="submit" class="search-submit"><span>サイト内検索</span></button>
                 </form>
             </div>
+            <!-- <div id="header-search2" class="clearfix">
+                <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <label>
+                        <input type="search" class="search-field" placeholder="サイト内検索" value="<?php echo get_search_query(); ?>" name="s" />
+                    </label>
+                    <button type="submit" class="search-submit"><span>サイト内検索</span></button>
+                </form>
+            </div> -->
             <div class="panel_btn">
                 <a class="tel_js" href="tel:0268630004"><em>0268-63-0004</em></a>
                 <a href="<?php echo home_url('/'); ?>contact/" class="btn"><span class="btn-inner">お問い合わせフォーム</span></a>

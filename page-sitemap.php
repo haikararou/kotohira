@@ -83,6 +83,7 @@ Template Name: サイトマップ
                     </ul>
                     <ul>
                         <li><a href="<?php echo home_url('/'); ?>news/">新着情報</a></li>
+                        <li><a href="<?php echo home_url('/'); ?>regist/">お客様情報登録</a></li>
                         <li><a href="<?php echo home_url('/'); ?>help/">このサイトについて</a></li>
                         <li><a href="<?php echo home_url('/'); ?>privacy/">プライバシーポリシー</a></li>
                         <li><a href="<?php echo home_url('/'); ?>sitemap/">サイトマップ</a></li>
