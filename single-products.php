@@ -375,11 +375,10 @@
                     <?php endif; ?>
                     </div>
                 </div>
-                <div class="conts">
-                    <h3 class="title3">この製品のお問い合わせ</h3>
-                    <br>
-                    <a class="btn btnL" href="https://www.sotuu.net/mkt/temp/kotohira_1.html" target="_blank"><span class="btn-inner">お問い合わせフォーム</span></a>
-                </div>
+                <section id="form">
+                    <h2>この製品のお問い合わせ</h2>
+                    <?php echo do_shortcode('[contact-form-7 id="4756" title="製品お問い合わせ"]'); ?>
+                </section>
             </section>
         </article>
 
@@ -416,7 +415,7 @@
                 <a href="<?php echo home_url('/'); ?>products/" class="btn m-center to-products-top"><span class="btn-inner">製品情報トップへ</span></a>
             </div>
         </article>
-    </main>                 
+    </main>
 
 <?php get_footer(2); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/slick.min.js"></script>
