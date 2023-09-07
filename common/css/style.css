@@ -6,10 +6,10 @@
 .home_brain_technology_title span { display:block; width:654px; height:52px; position:absolute; top:50%; left:50%; margin:-26px 0 0 -327px;}*/
 .home_brain_technology_title { display:block; width:654px; height:52px; position:absolute; top:50%; left:50%; margin:-150px 0 0 -327px;}
 .home_brain_technology_title2 { display:none;}
-#home_brain_technology .column-flex.home_brain_technology div { width:33.333%;}
+#home_brain_technology .column-flex.home_brain_technology div { width:50%;}
 #home_brain_technology .column-flex.home_brain_technology div img { width:100%; height:auto;}
 #home_brain_technology .column-flex.home_brain_technology div a { display:block; text-align:left; box-sizing:border-box; text-decoration:none; position:relative;}
-#home_brain_technology .column-flex.home_brain_technology2 div { width:33.333%;}
+#home_brain_technology .column-flex.home_brain_technology2 div { width:50%; line-height: 0;}
 #home_brain_technology .column-flex.home_brain_technology2 div img { width:100%; height:auto;}
 #home_brain_technology .column-flex.home_brain_technology2 div a { display:block; text-align:left; box-sizing:border-box; text-decoration:none; position:relative;}
 #home_brain_technology .column-flex.home_brain_technology div a img { display:none;}

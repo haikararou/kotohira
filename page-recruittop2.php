@@ -67,15 +67,15 @@ Template Name: リクルートTOP 2018
             </a>
         </div>
         <div class="recruit_col">
-            <a href="/recruit/voice2">
-                <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice2.jpg" alt="商品部開発課 落合航" width="29" height="38"/>
-                <div class="blue_box"><h3>互いの信頼と連携が支える<br class="pc600">職場環境が築く<br class="pc600">「コトヒラブランド」</h3><span>2011年入社 / 商品部開発課</span>落合航</div>
+            <a href="/recruit/voice5">
+                <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice5.jpg" alt="開発部開発課 篠原涼雅" width="29" height="38"/>
+                <div class="blue_box"><h3>社内外の人々と<br class="pc600">論理的思考力を武器に、<br class="pc600">これまで例のない製品の開発に挑む</h3><span>2020年入社 / 開発部開発課</span>篠原涼雅</div>
             </a>
         </div>
         <div class="recruit_col">
             <a href="/recruit/voice3">
-                <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice3.jpg" alt="商品部商品営業課 半田麻由" width="29" height="38"/>
-                <div class="blue_box"><h3>社内外の人々と<br class="pc600">接する日々で成長、<br class="pc600">いつかは「助け合い」の一員に</h3><span>2015年入社 / 商品部商品営業課</span>半田麻由</div>
+                <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice6.jpg" alt="経営企画部経営企画課 宮川千里" width="29" height="38"/>
+                <div class="blue_box"><h3>会社のコアな部分に携わり、<br class="pc600">様々な意思決定を支援する面白さ</h3><span>2016年入社 / 経営企画部経営企画課</span>宮川千里</div>
             </a>
         </div>
         <div class="recruit_col">

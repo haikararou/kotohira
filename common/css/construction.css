@@ -221,7 +221,9 @@ header #subNav ul li a:hover { filter: alpha(style=0,opacity=100);opacity:1; col
 	#recruit.culture header #subNav ul li:nth-child(3) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
 	#recruit.voice1 header #subNav ul li:nth-child(4) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
 	#recruit.voice2 header #subNav ul li:nth-child(4) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
+	#recruit.voice5 header #subNav ul li:nth-child(4) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
 	#recruit.voice3 header #subNav ul li:nth-child(4) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
+	#recruit.voice6 header #subNav ul li:nth-child(4) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
 	#recruit.voice4 header #subNav ul li:nth-child(4) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
 	#recruit.blog header #subNav ul li:nth-child(5) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}
 	#recruit.graduates header #subNav ul li:nth-child(6) a { background:#005FB2; padding-bottom:0; border-top:3px solid #0060B2!important;}

@@ -172,7 +172,7 @@
 main section#home_oem { padding:40px 0 70px; display:block; background:#EAF2F9; margin:120px auto 0; text-align:center;}
 main section#home_oem h3 { color:#333; font-size:1.5rem; line-height:100%; font-weight:bold; margin:0 auto 40px; padding:0;}
 main section#home_oem h4 { color:#333; font-size:0.938rem; line-height:180%; margin:0 0 40px 0; padding:0;}
-.home_oem { width:1200px; margin:0 auto; background:url(../img/top/oem01.png) no-repeat 0 100%, url(../img/top/oem02.png) no-repeat 100% 100%;}
+.home_oem { width:1100px; margin:0 auto; background:url(../img/top/oem01.png) no-repeat 0 100%, url(../img/top/oem02.png) no-repeat 100% 100%;}
 .home_oem_flow { width:430px; margin:50px auto 80px;}
 .home_oem_flow div { display:table; background:#333; width:86px; height:86px; border-radius:43px 43px 43px 43px; -moz-border-radius:43px 43px 43px 43px; -webkit-border-radius:43px 43px 43px 43px; color:#fff; text-align:center; font-size:1.125rem; line-height:120%; position:relative;}
 .home_oem_flow div span { display:table-cell; vertical-align:middle;}

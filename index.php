@@ -177,7 +177,7 @@
                 </div>
             </section>
             
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/wp/wp-content/themes/kotohira/common/module/interview.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/test/wp/wp-content/themes/kotohira/common/module/interview.php"); ?>
             
             <!--banner-->
             <section id="home_banner">

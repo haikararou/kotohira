@@ -231,12 +231,15 @@ header #subNav ul { width:800px;}
 .voice_main .blue_box span {display:block;font-size: 1.0rem;}
 .recruit_voice h3 {font-size: 1.75rem;line-height: 1.4;font-weight:  bold;margin-bottom: 1em;}
 .recruit_voice_top h3 {font-size: 1.2rem;line-height: 1.4;}
-.recruit_voice1,.recruit_voice2{ width:1100px; position:relative; margin:0 auto 80px;}
+.recruit_voice1,.recruit_voice2,.recruit_voice5{ width:1100px; position:relative; margin:0 auto 80px;}
 .recruit_voice1 .white_box_right {padding-left:45px;}
 .recruit_voice1 .white_box_left {padding-right:45px;}
 .recruit_voice2 { margin-bottom:215px;}
 .recruit_voice2 .white_box {padding: 45px 45px 0 45px;width: 62.3%;position:absolute;z-index: 10;left: 0;top:210px;}
 .recruit_voice2 .white_box_right {padding: 45px 45px 0 45px;width: 62.3%;position:absolute;z-index: 10;right: 0;top:210px;}
+.recruit_voice5 { margin-bottom:215px;}
+.recruit_voice5 .white_box {padding: 45px 45px 0 45px;width: 62.3%;position:absolute;z-index: 10;left: 0;top:210px;}
+.recruit_voice5 .white_box_right {padding: 45px 45px 0 45px;width: 62.3%;position:absolute;z-index: 10;right: 0;top:210px;}
 .recruit_voice3 {position:relative;display:  block; margin-bottom:70px;;}
 .recruit_voice3 .recruit_col_img {width:100%;height:auto;position:relative;z-index:1;}
 .recruit_voice3 .white_box {padding: 45px 45px 60px 45px;display:block;position: absolute;right: 0;bottom: 0;width:  42.3%;}
@@ -244,6 +247,13 @@ header #subNav ul { width:800px;}
 .recruit_voice3 .white_box:before {/* content:""; */position:absolute;background:#fff;top:0;bottom:0;height:100%;width:2000px;display:block;left:-2000px;}
 .recruit_voice3_in {position:absolute;z-index:10;bottom:0;width: 100%;height:  100%;right: 0;left: 0;top: 0;-webkit- transform: translateY(-50%);}
 .recruit_voice3_in p { margin-bottom:0;}
+.recruit_voice6 {position:relative;display:  block; margin-bottom:70px;;}
+.recruit_voice6 .recruit_col_img {width:100%;height:auto;position:relative;z-index:1;}
+.recruit_voice6 .white_box {padding: 45px 45px 60px 45px;display:block;position: absolute;right: 0;bottom: 0;width:  42.3%;}
+.recruit_voice6 .white_box_left {padding: 45px 45px 60px 45px;display:block;position: absolute;left: 0;bottom: 0;width:  42.3%;}
+.recruit_voice6 .white_box:before {/* content:""; */position:absolute;background:#fff;top:0;bottom:0;height:100%;width:2000px;display:block;left:-2000px;}
+.recruit_voice6_in {position:absolute;z-index:10;bottom:0;width: 100%;height:  100%;right: 0;left: 0;top: 0;-webkit- transform: translateY(-50%);}
+.recruit_voice6_in p { margin-bottom:0;}
 .recruit_voice4 { width:800px; margin:0 auto 100px;}
 .recruit_time_ul {}
 .recruit_time_ul li { margin-bottom:2em;}
@@ -254,10 +264,13 @@ header #subNav ul { width:800px;}
 @media screen and (max-width:1220px){
 	.voice_main .voice_title {font-size:2rem;}
 	.voice_main .recruit_main_txt {width: 90%;margin-left: -45%;}
-	.recruit_voice1,.recruit_voice2,.recruit_voice4 {width:90%;margin: 0 auto 60px;}
+	.recruit_voice1,.recruit_voice2,.recruit_voice5,.recruit_voice4 {width:90%;margin: 0 auto 60px;}
 	.recruit_voice2 .white_box {width:50%;top:0;padding-top:0;position: static;}
 	.recruit_voice2 .white_box_right {top: 0;width: 50%;position: static;padding: 0 0 0 45px;}
+	.recruit_voice5 .white_box {width:50%;top:0;padding-top:0;position: static;}
+	.recruit_voice5 .white_box_right {top: 0;width: 50%;position: static;padding: 0 0 0 45px;}
 	.recruit_voice3 .white_box:before { display:none:}
+	.recruit_voice6 .white_box:before { display:none:}
 }
 @media screen and (max-width: 900px){
 	.voice_main .recruit_main_txt .recruit_title { margin-bottom:.5em;}
@@ -270,9 +283,14 @@ header #subNav ul { width:800px;}
 	.recruit_voice1 .recruit_col {width: 100%;margin-bottom: 5%;padding: 0;}
 	.recruit_voice2 .white_box {width:100%;position: static;padding: 5% 0;}
 	.recruit_voice2 .white_box_right { width:100%; padding:5% 0;}
+	.recruit_voice5 .white_box {width:100%;position: static;padding: 5% 0;}
+	.recruit_voice5 .white_box_right { width:100%; padding:5% 0;}
 	.recruit_voice3 .white_box {position:  static;width: 90%;padding: 0;margin: 5% auto 0;}
 	.recruit_voice3 .white_box_left {position:static;width: 90%;padding: 0;margin: 5% auto 0;}
 	.recruit_voice3_in {position:static;}
+	.recruit_voice6 .white_box {position:  static;width: 90%;padding: 0;margin: 5% auto 0;}
+	.recruit_voice6 .white_box_left {position:static;width: 90%;padding: 0;margin: 5% auto 0;}
+	.recruit_voice6_in {position:static;}
 }
 @media screen and (max-width:600px){
 	.voice_main_sp { position:relative;}
