@@ -61,25 +61,25 @@ Template Name: リクルートTOP 2018
     <h2 class="recruit_title"><span class="font-eb">Voice</span><span>先輩の声</span></h2>
     <div class="recruit_4col column-flex">
         <div class="recruit_col">
-            <a href="/recruit/voice1">
+            <a href="<?php echo home_url('/'); ?>recruit/voice1">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice1.jpg" alt="商品部開発課 熊井岳史" width="29" height="38"/>
                 <div class="blue_box"><h3>「よりよい品質」を求め、<br class="pc600">地元・長野県で<br class="pc600">胸を張って働く喜び</h3><span>2009年入社 / 商品部開発課</span>熊井岳史</div>
             </a>
         </div>
         <div class="recruit_col">
-            <a href="/recruit/voice5">
+            <a href="<?php echo home_url('/'); ?>recruit/voice5">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice5.jpg" alt="開発部開発課 篠原涼雅" width="29" height="38"/>
                 <div class="blue_box"><h3>社内外の人々と<br class="pc600">論理的思考力を武器に、<br class="pc600">これまで例のない製品の開発に挑む</h3><span>2020年入社 / 開発部開発課</span>篠原涼雅</div>
             </a>
         </div>
         <div class="recruit_col">
-            <a href="/recruit/voice3">
+            <a href="<?php echo home_url('/'); ?>recruit/voice3">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice6.jpg" alt="経営企画部経営企画課 宮川千里" width="29" height="38"/>
                 <div class="blue_box"><h3>会社のコアな部分に携わり、<br class="pc600">様々な意思決定を支援する面白さ</h3><span>2016年入社 / 経営企画部経営企画課</span>宮川千里</div>
             </a>
         </div>
         <div class="recruit_col">
-            <a href="/recruit/voice4">
+            <a href="<?php echo home_url('/'); ?>recruit/voice4">
                 <img src="<?php echo get_template_directory_uri(); ?>/common/img/recruit/recruit2_voice4.jpg" alt="産機部産機営業課 高木孝亮" width="29" height="38"/>
                 <div class="blue_box"><h3>開発から営業へ。<br class="pc600">経験と日々の出会いから<br class="pc600">学び成長する「今日の自分」</h3><span>2013年入社 / 産機部産機営業課</span>高木孝亮</div>
             </a>
