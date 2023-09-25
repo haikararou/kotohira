@@ -88,8 +88,9 @@ Template Name: OEM-TOP3
 <a class="btn" href="/oem/form/"><span class="btn-inner">ダウンロード</span></a></div>
 </div>
 </section>
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/wp/wp-content/themes/kotohira/common/module/interview.php"); ?>
-
+<div class="home_sec">
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/test/wp/wp-content/themes/kotohira/common/module/interview.php"); ?>
+</div>
         </article>
     </main>
 <?php get_footer('oem'); ?>
