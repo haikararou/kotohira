@@ -36,7 +36,7 @@ Template Name: OEM-TOP3
 <dd></dd>
 </dl>
 <dl>
-<dt><a href="https://www.kotohira.biz/oem/production_control/">生産管理・品質保証体制">お客様に信頼される生産管理・品質保証体制</a></dt>
+<dt><a href="https://www.kotohira.biz/oem/production_control/">お客様に信頼される生産管理・品質保証体制</a></dt>
 <dd></dd>
 </dl>
 </div>
